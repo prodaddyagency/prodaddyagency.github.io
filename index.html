@@ -12,6 +12,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Security: the browser may only load files from this site and Google Fonts.
+       This blocks injected scripts and stops other sites from loading code into our pages. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <!-- Privacy: when a visitor clicks a link to another site, only our domain name is shared, never the full page address -->
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>ProDaddy Agency | Short-Form Video & Meta Ads Agency</title>
   <meta name="description" content="ProDaddy Agency is an India-based video and digital marketing agency. Scroll-stopping Reels, TikToks, video ads and social media management for businesses in India, Australia and Canada.">
 
