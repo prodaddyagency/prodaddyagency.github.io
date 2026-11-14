@@ -93,6 +93,7 @@ h2 { font-size: clamp(30px, 4.2vw, 48px); font-weight: 800; margin-bottom: 16px;
   position: absolute; inset: 0;
   background: radial-gradient(400px circle at var(--mx, -500px) var(--my, -500px), rgba(255, 46, 122, .13), transparent 45%);
   pointer-events: none;
+  border-radius: inherit;
 }
 
 
@@ -265,6 +266,8 @@ h2 { font-size: clamp(30px, 4.2vw, 48px); font-weight: 800; margin-bottom: 16px;
 .currency-switch button.active { background: var(--gradient); color: #fff; }
 .plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 46px; }
 .plan { position: relative; display: flex; flex-direction: column; padding: 36px 32px; border-radius: 26px; background: var(--card); border: 1px solid var(--line); }
+/* pricing cards must not clip the "MOST POPULAR" badge that sticks out above the card */
+.plan.glow-card { overflow: visible; }
 .plan.popular { border-color: transparent; background: linear-gradient(var(--card), var(--card)) padding-box, var(--gradient) border-box; transform: translateY(-10px); }
 .plan-badge { position: absolute; top: -13px; left: 32px; padding: 5px 14px; border-radius: 999px; background: var(--gold); color: #2a0b1e; font-size: 12px; font-weight: 700; }
 .plan h3 { font-size: 20px; }
@@ -274,7 +277,7 @@ h2 { font-size: clamp(30px, 4.2vw, 48px); font-weight: 800; margin-bottom: 16px;
 .plan .tick-list { flex: 1; margin: 26px 0 30px; }
 .pricing-note { margin-top: 34px; text-align: center; color: var(--muted); font-size: 14px; }
 .pricing-note a { color: var(--gold); }
-@media (max-width: 900px) { .plans { grid-template-columns: 1fr; } .plan.popular { transform: none; } }
+@media (max-width: 900px) { .plans { grid-template-columns: 1fr; row-gap: 30px; } .plan.popular { transform: none; } }
 
 
 /* ---------- 3j. FAQ ---------- */
@@ -309,8 +312,7 @@ h2 { font-size: clamp(30px, 4.2vw, 48px); font-weight: 800; margin-bottom: 16px;
 @media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 
 /* floating WhatsApp button (bottom right) */
-/* bottom: 76px keeps it above the small "Powered by Netlify" badge in the corner */
-.whatsapp-btn { position: fixed; right: 22px; bottom: 76px; z-index: 60; width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; background: #25d366; box-shadow: 0 10px 30px rgba(0, 0, 0, .4); transition: transform .2s; }
+.whatsapp-btn { position: fixed; right: 22px; bottom: 22px; z-index: 60; width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; background: #25d366; box-shadow: 0 10px 30px rgba(0, 0, 0, .4); transition: transform .2s; }
 .whatsapp-btn:hover { transform: scale(1.08); }
 .whatsapp-btn svg { width: 30px; height: 30px; fill: #fff; }
 
