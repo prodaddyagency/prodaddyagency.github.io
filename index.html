@@ -1,0 +1,286 @@
+<!doctype html>
+<!--
+  ProDaddy Agency – home page
+  Files used by this page:
+    css/style.css   → all colours, layout and design
+    js/main.js      → animations, sample reels list, prices
+    assets/images/  → logo, favicon, social share image
+    assets/work/    → sample reel videos (.mp4) and their cover images (.jpg)
+  Each section below starts with a comment that says what it is.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProDaddy Agency | Short-Form Video & Meta Ads Agency</title>
+  <meta name="description" content="ProDaddy Agency is an India-based video and digital marketing agency. Scroll-stopping Reels, TikToks, video ads and social media management for businesses in India, Australia and Canada.">
+
+  <!-- How the link looks when shared on WhatsApp, Facebook, LinkedIn -->
+  <meta property="og:title" content="ProDaddy Agency | Scroll-stopping Reels & Ads">
+  <meta property="og:description" content="Short-form video editing, video ads and social media management. India-based, serving India, Australia & Canada.">
+  <meta property="og:image" content="assets/images/og.jpg">
+
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===================== NAVIGATION BAR ===================== -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="#" class="logo"><img src="assets/images/favicon.png" alt=""><div>ProDaddy<small>AGENCY</small></div></a>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="#contact" class="btn btn-primary">Free sample edit</a>
+  </div>
+</nav>
+
+
+<!-- ===================== HERO (first screen) ===================== -->
+<header class="hero">
+  <div class="container">
+    <div>
+      <div class="status-pill"><span class="dot"></span> Now taking clients in Australia & Canada</div>
+      <h1>Reels and ads that<br><span class="gradient-text rotating-word" id="rotating-word">stop the scroll</span></h1>
+      <p class="lead">ProDaddy Agency is a video and digital marketing studio based in India. We edit short-form videos, create video ads and run social media for businesses in India, Australia and Canada.</p>
+      <div class="button-row">
+        <a href="#contact" class="btn btn-primary">Get a free sample edit →</a>
+        <a href="#work" class="btn btn-outline">▶ See our work</a>
+      </div>
+      <div class="hero-countries"><span>● India</span><span>● Australia</span><span>● Canada</span><span>🌙 Overnight delivery</span></div>
+    </div>
+
+    <div class="phones">
+      <div class="phone phone-left"><video src="assets/work/cafe.mp4" poster="assets/work/cafe.jpg" autoplay muted loop playsinline preload="metadata"></video></div>
+      <div class="phone phone-center"><video src="assets/work/pay.mp4" poster="assets/work/pay.jpg" autoplay muted loop playsinline preload="metadata"></video></div>
+      <div class="phone phone-right"><video src="assets/work/gym.mp4" poster="assets/work/gym.jpg" autoplay muted loop playsinline preload="metadata"></video></div>
+      <div class="badge-float badge-1"><span>⚡</span> Hook in the first 2 seconds</div>
+      <div class="badge-float badge-2"><span>💬</span> Word-by-word captions</div>
+      <div class="badge-float badge-3"><span>🌙</span> Ready by your morning</div>
+    </div>
+  </div>
+</header>
+
+
+<!-- ===================== INDUSTRIES STRIP (scrolls by itself) ===================== -->
+<!-- The list is written twice so the loop looks endless -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Cafés</span><span>✦</span><span>Real Estate</span><span>✦</span><span>Gyms</span><span>✦</span><span>Dental Clinics</span><span>✦</span><span>Salons</span><span>✦</span><span>Restaurants</span><span>✦</span><span>Fashion</span><span>✦</span><span>Trades</span><span>✦</span><span>Fintech</span><span>✦</span><span>Coaches</span><span>✦</span>
+    <span>Cafés</span><span>✦</span><span>Real Estate</span><span>✦</span><span>Gyms</span><span>✦</span><span>Dental Clinics</span><span>✦</span><span>Salons</span><span>✦</span><span>Restaurants</span><span>✦</span><span>Fashion</span><span>✦</span><span>Trades</span><span>✦</span><span>Fintech</span><span>✦</span><span>Coaches</span><span>✦</span>
+  </div>
+</div>
+
+
+<!-- ===================== NUMBERS ===================== -->
+<div class="stats">
+  <div class="container">
+    <div><b><span data-count="5">0</span>+</b><span>Years of experience</span></div>
+    <div><b><span data-count="1000">0</span>+</b><span>Projects delivered</span></div>
+    <div><b>3</b><span>Countries served</span></div>
+    <div><b>24h</b><span>Typical turnaround</span></div>
+  </div>
+</div>
+
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services">
+  <div class="container">
+    <span class="eyebrow">What we do</span>
+    <h2>Everything your business needs<br>to win on social.</h2>
+    <p class="lead">One team for editing, ads and posting, so your brand looks the same everywhere.</p>
+
+    <div class="services-grid">
+      <div class="card glow-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg></div>
+        <h3>Short-Form Video Editing</h3>
+        <p>Reels, TikToks and YouTube Shorts with a hook in the first two seconds.</p>
+        <ul class="tick-list"><li>Hooks & on-screen text</li><li>Word-by-word captions</li><li>Cuts, transitions & sound design</li><li>Licensed music</li></ul>
+      </div>
+      <div class="card glow-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 11l15-7v16L3 13z"/><path d="M7 13v5a2 2 0 0 0 4 0v-3.5"/></svg></div>
+        <h3>Video Ads & Meta Ads</h3>
+        <p>Ads built to convert, plus campaign setup and management on Facebook and Instagram.</p>
+        <ul class="tick-list"><li>Hook testing (3+ openings)</li><li>9:16, 4:5 & 1:1 exports</li><li>CTA end cards</li><li>Targeting & reporting</li></ul>
+      </div>
+      <div class="card glow-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div>
+        <h3>Social Media Management</h3>
+        <p>A monthly plan of reels and posts, written, designed and published for you.</p>
+        <ul class="tick-list"><li>Monthly content calendar</li><li>Reels, posts & captions</li><li>Posting & scheduling</li><li>Monthly report</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== SAMPLE WORK ===================== -->
+<!-- The reels are added by js/main.js (edit the SAMPLE_REELS list there) -->
+<section id="work" class="section-alt">
+  <div class="container">
+    <div class="work-head">
+      <div>
+        <span class="eyebrow">Sample work</span>
+        <h2>Built for local businesses.</h2>
+        <p class="lead">Ten example reels for different industries. Tap any reel to play it with sound.</p>
+      </div>
+      <a href="#contact" class="btn btn-outline">Get one for your business →</a>
+    </div>
+    <div class="reels-grid" id="reels-grid"></div>
+    <p class="small-note">Sample edits made by ProDaddy Agency using stock footage. The brand names are examples.</p>
+  </div>
+</section>
+
+
+<!-- ===================== WHY US + LIVE CLOCKS ===================== -->
+<section>
+  <div class="container why">
+    <div class="reveal">
+      <span class="eyebrow">Why ProDaddy</span>
+      <h2>Agency quality.<br>Fair prices. <span class="gradient-text">Fast.</span></h2>
+      <p class="lead">We are based in India, so you get an experienced team at rates small businesses can afford, and we work while you sleep.</p>
+      <div class="why-list">
+        <div class="why-item glow-card"><i>⚡</i><div><h4>Overnight turnaround</h4><p>Send footage at the end of your day and wake up to the edit.</p></div></div>
+        <div class="why-item glow-card"><i>💬</i><div><h4>Clear English communication</h4><p>Email and WhatsApp updates at every step, in your working hours.</p></div></div>
+        <div class="why-item glow-card"><i>🎯</i><div><h4>Made to sell</h4><p>We also run ads, so every edit is planned for views, calls and sales.</p></div></div>
+        <div class="why-item glow-card"><i>🔁</i><div><h4>Revisions included</h4><p>Every package includes revisions until the edit feels right.</p></div></div>
+      </div>
+    </div>
+
+    <div class="clock-box reveal">
+      <h3>We work in your time zone</h3>
+      <p>Live time where our clients are:</p>
+      <div class="clock-row"><div><b>Sydney / Melbourne</b><span>AEST / AEDT</span></div><em data-timezone="Australia/Sydney">--:--</em></div>
+      <div class="clock-row"><div><b>Brisbane</b><span>AEST</span></div><em data-timezone="Australia/Brisbane">--:--</em></div>
+      <div class="clock-row"><div><b>Toronto / Ottawa</b><span>ET</span></div><em data-timezone="America/Toronto">--:--</em></div>
+      <div class="clock-row"><div><b>Vancouver</b><span>PT</span></div><em data-timezone="America/Vancouver">--:--</em></div>
+      <div class="clock-row home"><div><b>ProDaddy HQ, India</b><span>IST</span></div><em data-timezone="Asia/Kolkata">--:--</em></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== PROCESS (4 steps) ===================== -->
+<section id="process" style="padding-top: 0">
+  <div class="container">
+    <span class="eyebrow">How it works</span>
+    <h2>From raw clips to ready-to-post<br>in four steps.</h2>
+    <div class="steps">
+      <div class="step reveal"><h4>Free call or chat</h4><p>Tell us about your business, your goal and the style you like.</p></div>
+      <div class="step reveal"><h4>Send your footage</h4><p>Share clips by Google Drive, Dropbox or WhatsApp. No footage? We use stock.</p></div>
+      <div class="step reveal"><h4>We edit overnight</h4><p>Hook, captions, music and sound design, ready by your morning.</p></div>
+      <div class="step reveal"><h4>Review & post</h4><p>Ask for changes, approve, and get files for every platform.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== PRICING ===================== -->
+<!-- Prices are set in js/main.js (PRICES list). The numbers here are only a fallback. -->
+<section id="pricing" class="section-alt">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow">Pricing</span>
+      <h2>Simple packages. No contracts.</h2>
+      <p class="lead">Reel editing packages. Video ads and monthly social media plans are quoted to your needs.</p>
+      <div class="currency-switch">
+        <button data-currency="AUD" class="active">AUD</button>
+        <button data-currency="CAD">CAD</button>
+        <button data-currency="USD">USD</button>
+        <button data-currency="INR">INR</button>
+      </div>
+    </div>
+
+    <div class="plans">
+      <div class="plan glow-card reveal">
+        <h3>Starter</h3><div class="plan-sub">Try us with one reel</div>
+        <div class="price" data-plan="starter">A$69<small>/ 1 reel</small></div>
+        <ul class="tick-list"><li>1 reel up to 45 seconds</li><li>Captions & licensed music</li><li>2 revisions</li><li>2-day delivery</li></ul>
+        <a href="#contact" class="btn btn-outline">Get started</a>
+      </div>
+      <div class="plan popular glow-card reveal">
+        <span class="plan-badge">MOST POPULAR</span>
+        <h3>Growth</h3><div class="plan-sub">For weekly posting</div>
+        <div class="price" data-plan="growth">A$179<small>/ 3 reels</small></div>
+        <ul class="tick-list"><li>3 reels up to 60 seconds</li><li>Hook text, SFX & captions</li><li>3 revisions</li><li>3-day delivery</li></ul>
+        <a href="#contact" class="btn btn-primary">Get started</a>
+      </div>
+      <div class="plan glow-card reveal">
+        <h3>Pro</h3><div class="plan-sub">A month of content</div>
+        <div class="price" data-plan="pro">A$449<small>/ 8 reels</small></div>
+        <ul class="tick-list"><li>8 reels up to 60 seconds</li><li>Hooks, motion text & thumbnails</li><li>5 revisions</li><li>5-day delivery</li></ul>
+        <a href="#contact" class="btn btn-outline">Get started</a>
+      </div>
+    </div>
+    <p class="pricing-note">Need video ads or full social media management? <a href="#contact">Ask for a custom quote →</a></p>
+  </div>
+</section>
+
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq">
+  <div class="container">
+    <div class="center"><span class="eyebrow">FAQ</span><h2>Questions, answered.</h2></div>
+    <div class="faq">
+      <details><summary>Where are you based?</summary><p>ProDaddy Agency is based in Andhra Pradesh, India. We work with businesses in India, Australia and Canada, fully online.</p></details>
+      <details><summary>What do you need from me?</summary><p>Your raw clips (phone footage is fine), your logo and brand colours, and any example video you like. We can also use licensed stock footage.</p></details>
+      <details><summary>How fast will I get my video?</summary><p>Most single reels are delivered within 24 to 48 hours. Because of the time difference, footage sent in your evening is usually ready by your morning.</p></details>
+      <details><summary>How do I pay?</summary><p>International clients can pay by card or bank transfer through our invoice, or order through our Fiverr and Upwork profiles. Indian clients can pay by UPI or bank transfer.</p></details>
+      <details><summary>Can I get a free sample first?</summary><p>Yes. Send us one short clip and we will edit the first 10 to 15 seconds for free, so you can see our style before you pay.</p></details>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== FINAL CALL-TO-ACTION ===================== -->
+<section class="final-cta" id="contact">
+  <div class="container">
+    <div class="cta-box">
+      <h2>Ready to stop the scroll?</h2>
+      <p>Send us one clip. We'll edit a free sample so you can see the difference before you pay.</p>
+      <div class="button-row">
+        <a class="btn btn-white" href="mailto:hello@prodaddyagency.com?subject=Free%20sample%20edit">✉ hello@prodaddyagency.com</a>
+        <a class="btn btn-outline" href="https://wa.me/916304430996?text=Hi%20ProDaddy%2C%20I%27d%20like%20a%20free%20sample%20edit." target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="#" class="logo"><img src="assets/images/favicon.png" alt=""><div>ProDaddy<small>AGENCY</small></div></a>
+        <p>Video editing and digital marketing studio based in India, serving India, Australia and Canada.</p>
+      </div>
+      <div><h5>Services</h5><ul><li><a href="#services">Reels editing</a></li><li><a href="#services">Video ads</a></li><li><a href="#services">Social media</a></li><li><a href="#services">Meta ads</a></li></ul></div>
+      <div><h5>Company</h5><ul><li><a href="#work">Work</a></li><li><a href="#process">Process</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li><a href="mailto:hello@prodaddyagency.com">hello@prodaddyagency.com</a></li><li><a href="https://wa.me/916304430996" target="_blank" rel="noopener">WhatsApp +91 63044 30996</a></li><li>Andhra Pradesh, India</li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> ProDaddy Agency. All rights reserved.</span>
+      <span>Registered MSME (Udyam), India · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Floating WhatsApp button (bottom right corner) -->
+<a class="whatsapp-btn" href="https://wa.me/916304430996?text=Hi%20ProDaddy%2C%20I%27d%20like%20a%20free%20sample%20edit." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
