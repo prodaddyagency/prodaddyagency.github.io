@@ -45,7 +45,8 @@ const reelsGrid = document.getElementById("reels-grid");
 SAMPLE_REELS.forEach(([file, brand, info]) => {
   reelsGrid.insertAdjacentHTML("beforeend", `
     <div class="reel reveal">
-      <video src="assets/work/${file}.mp4" poster="assets/work/${file}.jpg" muted loop playsinline preload="none"></video>
+      <video src="assets/work/${file}.mp4" poster="assets/work/${file}.jpg" muted loop playsinline preload="none"
+             aria-label="Sample reel edit for ${brand}, ${info}" title="${brand} sample reel"></video>
       <div class="reel-play">▶</div>
       <div class="reel-label"><b>${brand}</b><span>${info}</span></div>
     </div>`);
