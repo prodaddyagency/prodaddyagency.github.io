@@ -17,13 +17,82 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <!-- Privacy: when a visitor clicks a link to another site, only our domain name is shared, never the full page address -->
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <title>ProDaddy Agency | Short-Form Video & Meta Ads Agency</title>
-  <meta name="description" content="ProDaddy Agency is an India-based video and digital marketing agency. Scroll-stopping Reels, TikToks, video ads and social media management for businesses in India, Australia and Canada.">
+  <!-- ===================== SEO (how Google shows this page) =====================
+       title       → the blue headline in Google results (keep under ~60 characters)
+       description → the grey text under it (keep under ~155 characters)
+       canonical   → tells Google the one official address of this page -->
+  <title>Reels Editing & Video Ads Agency | ProDaddy Agency</title>
+  <meta name="description" content="Scroll-stopping Reels, TikToks, YouTube Shorts and Meta video ads for businesses in Australia, Canada and India. Overnight delivery. Get a free sample edit.">
+  <link rel="canonical" href="https://prodaddyagency.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0b0a14">
 
-  <!-- How the link looks when shared on WhatsApp, Facebook, LinkedIn -->
-  <meta property="og:title" content="ProDaddy Agency | Scroll-stopping Reels & Ads">
-  <meta property="og:description" content="Short-form video editing, video ads and social media management. India-based, serving India, Australia & Canada.">
-  <meta property="og:image" content="assets/images/og.jpg">
+  <!-- How the link looks when shared on WhatsApp, Facebook, LinkedIn, X (images need the full https address) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ProDaddy Agency">
+  <meta property="og:url" content="https://prodaddyagency.com/">
+  <meta property="og:title" content="ProDaddy Agency | Scroll-stopping Reels & Video Ads">
+  <meta property="og:description" content="Short-form video editing, video ads and social media management for businesses in Australia, Canada and India. Free sample edit.">
+  <meta property="og:image" content="https://prodaddyagency.com/assets/images/og.jpg">
+  <meta property="og:locale" content="en_AU">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Business details for Google (structured data). Google reads this to show our name, logo,
+       contact details, services and FAQ answers in search. It is information only, not a script. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://prodaddyagency.com/#business",
+        "name": "ProDaddy Agency",
+        "url": "https://prodaddyagency.com/",
+        "logo": "https://prodaddyagency.com/assets/images/logo.png",
+        "image": "https://prodaddyagency.com/assets/images/og.jpg",
+        "description": "India-based video editing and digital marketing agency. Reels, TikToks, YouTube Shorts, Meta video ads and social media management for businesses in India, Australia and Canada.",
+        "email": "hello@prodaddyagency.com",
+        "telephone": "+91-6304430996",
+        "priceRange": "$$",
+        "foundingDate": "2025",
+        "address": { "@type": "PostalAddress", "addressRegion": "Andhra Pradesh", "addressCountry": "IN" },
+        "areaServed": [
+          { "@type": "Country", "name": "Australia" },
+          { "@type": "Country", "name": "Canada" },
+          { "@type": "Country", "name": "India" }
+        ],
+        "knowsAbout": ["Short-form video editing", "Instagram Reels", "TikTok videos", "YouTube Shorts", "Video ads", "Meta ads", "Social media management"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Video and marketing services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reels, TikTok and YouTube Shorts editing" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Video ads and Meta ads management" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social media management" } }
+          ]
+        },
+        "sameAs": ["https://www.facebook.com/profile.php?id=61596355838595"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://prodaddyagency.com/#website",
+        "url": "https://prodaddyagency.com/",
+        "name": "ProDaddy Agency",
+        "publisher": { "@id": "https://prodaddyagency.com/#business" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Where are you based?", "acceptedAnswer": { "@type": "Answer", "text": "ProDaddy Agency is based in Andhra Pradesh, India. We work with businesses in India, Australia and Canada, fully online." } },
+          { "@type": "Question", "name": "What do you need from me?", "acceptedAnswer": { "@type": "Answer", "text": "Your raw clips (phone footage is fine), your logo and brand colours, and any example video you like. We can also use licensed stock footage." } },
+          { "@type": "Question", "name": "How fast will I get my video?", "acceptedAnswer": { "@type": "Answer", "text": "Most single reels are delivered within 24 to 48 hours. Because of the time difference, footage sent in your evening is usually ready by your morning." } },
+          { "@type": "Question", "name": "How do I pay?", "acceptedAnswer": { "@type": "Answer", "text": "International clients can pay by card or bank transfer through our invoice, or order through our Fiverr and Upwork profiles. Indian clients can pay by UPI or bank transfer." } },
+          { "@type": "Question", "name": "Can I get a free sample first?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Send us one short clip and we will edit the first 10 to 15 seconds for free, so you can see our style before you pay." } }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <link rel="icon" href="assets/images/favicon.png">
   <link rel="apple-touch-icon" href="assets/images/icon-192.png">

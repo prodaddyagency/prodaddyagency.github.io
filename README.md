@@ -7,6 +7,10 @@ prodaddyagency.com/
 ├── index.html        Home page: all text and sections, in order
 ├── privacy.html      Privacy Policy page
 ├── terms.html        Terms of Service page
+├── 404.html          "Page not found" page
+├── robots.txt        Tells Google it may read every page
+├── sitemap.xml       List of all pages for Google (add new pages here)
+├── CNAME             Connects the site to prodaddyagency.com (do not delete)
 ├── css/style.css     Design: colours, fonts, spacing, animations
 ├── js/main.js        Behaviour: sample reels list, prices, clocks, animations
 ├── assets/images/    Logo, favicon, link-preview image (og.jpg)

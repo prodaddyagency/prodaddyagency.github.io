@@ -1,0 +1,7 @@
+# robots.txt – tells search engines what they may read.
+# Everything on this site is public, so all pages are allowed.
+User-agent: *
+Allow: /
+
+# Where Google can find the list of all pages
+Sitemap: https://prodaddyagency.com/sitemap.xml

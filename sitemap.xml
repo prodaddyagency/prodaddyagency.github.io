@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sitemap.xml – the list of every page on the site, for Google and Bing.
+     When you add a new page, add a new <url> block here. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://prodaddyagency.com/</loc><lastmod>2026-11-14</lastmod><priority>1.0</priority></url>
+  <url><loc>https://prodaddyagency.com/privacy.html</loc><lastmod>2026-11-14</lastmod><priority>0.3</priority></url>
+  <url><loc>https://prodaddyagency.com/terms.html</loc><lastmod>2026-11-14</lastmod><priority>0.3</priority></url>
+</urlset>
